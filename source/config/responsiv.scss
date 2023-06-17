@@ -1,0 +1,21 @@
+@use 'var.scss';
+
+@media screen and (max-width: var.$mobile) {
+    .products {
+        display: block;
+
+        .product-item  {
+            margin-bottom: 32px;
+        }
+    }
+}
+@media screen and (max-width: var.$tablet) {
+    .container {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .products {
+        grid-template-columns: repeat(2, 48.5%);
+        column-gap: 3%;
+    }
+}

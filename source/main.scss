@@ -1,0 +1,16 @@
+@use 'config/default.scss';
+@use 'config/var.scss';
+@use 'config/header..scss';
+@use 'secoes/menu.scss';
+@use 'secoes/products.scss';
+@use 'config/responsiv.scss';
+
+body{
+    background-color: var.$back-primary;
+}
+li{
+    list-style: none;
+}
+section {
+    padding: 56px 0;
+}
